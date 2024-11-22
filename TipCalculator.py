@@ -7,5 +7,3 @@ tip_percentage = tip / 100
 total_tip = bill * tip_percentage
 total_bill = round((bill + total_tip) / no_of_guests, 2)
 print(f"You all will be required to pay: {total_bill} \nCiao!!!!")
-
-
