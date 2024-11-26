@@ -31,11 +31,10 @@ for char in range(0, nr_symbols):
     password_list.append(random.choice(symbols))   #add symbols to updated password_list
 for char in range(0, nr_numbers):
     password_list.append(random.choice(numbers)) #add numbers to updated password_list
-print(password_list)
+
 random.shuffle(password_list)  #shuffle and reorder the array
-print(password_list)
 
 for char in password_list:
     password += char    #add character to "password"
 
-print(f"Your password is : {password}")
+print(f"Your unique password is : {password}")
